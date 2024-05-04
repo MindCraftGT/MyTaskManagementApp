@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task Manager</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- Task Input Form-->
+	<div class="task-form">
+		<input type="text" name="" id="task-input" placeholder="Add A New Task">
+		<button class="add-task" onclick="addTask()">Add Task</button>
+	</div>
+	<!--Task List-->
+	<ul id="task-list"></ul>
+	<script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
